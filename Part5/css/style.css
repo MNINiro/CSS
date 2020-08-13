@@ -1,0 +1,21 @@
+.bdr{
+    border-width: 5px 20px 10px;
+    /* horizontal, vertical, bottom */
+    /* clock wise */
+
+    border-style: dotted solid;
+    /* can be combined multiple design or keep just one design */
+
+    border-color: blue;
+    border-radius: 10px;
+
+}
+
+/* multiple line of properties can be declared in a single line */
+
+.bdr2{
+    border: 5px solid #ff0000;
+    border-radius: 10px 20px 30px 40px;
+    /* can be combined multiple design or keep just one design */
+}
+

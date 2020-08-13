@@ -9,20 +9,12 @@ body{
 body{
     background-image: url(../image/maxresdefault.jpg);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: center;
+    height:auto;
+    width: 200;
 }
 
-div{
-    width: 300px;
-    height: 300px;
-    background-image:   url(../image/OIP.jpg);
-    background-repeat: no-repeat;
-    background-size: 300px autopx;
-    background-attachment: fixed;
-    background-position: top left;
-
-}
-
-body{
-    background: #0000 url('../image/OIP.jpg') no-repeat top center / 200px auto;
+p{
+    font-size: 15px;
+    color:yellow;
 }
