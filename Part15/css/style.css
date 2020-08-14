@@ -1,0 +1,14 @@
+
+ul{
+    list-style-type: lower-alpha;
+}
+
+ol{ /*
+    list-style-image: url(../../image/tick.png);
+    list-style-position: inside; /* outside */
+
+    /* alternate: */
+
+    list-style: square inside url('../../image/tick.png'); */
+
+}

@@ -1,0 +1,14 @@
+/* following .fa-facebook-f class has been imported from font awesome. It's a sub-class */
+
+/*
+.fa-facebook-f{
+    font-size: 50px;
+    color: red;
+} */
+
+/* fab is the super class. whatever properties we will use on Super class, it will be automatically apply on all sub-classes. */
+
+.fab{
+    font-size: 50px;
+    color: red;
+}

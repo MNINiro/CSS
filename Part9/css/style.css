@@ -1,0 +1,23 @@
+p{
+    color: green;
+    text-align: justify;
+    text-transform:uppercase;
+    text-indent: 50px;
+    line-height: 2; /* 1 = font size.
+    here font size is 20, so 2 is equivalent to 40px */
+    word-spacing: 10px;
+}
+
+h2{
+    color: blue;
+    text-align:center;
+    text-decoration: underline;
+    letter-spacing: 5px;
+    text-shadow: 1px -2px green; /* left-right, up-down, second color */
+}
+
+a{
+    text-decoration: none;
+    color:red;
+
+}

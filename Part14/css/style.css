@@ -1,0 +1,28 @@
+a{
+    color: #fff
+    font-family: tahoma;
+    font-size: 15px;
+    padding: 10px 20px;
+}
+
+/* following code may not be useful is a:visited is used */
+a:link{
+    text-decoration: none;
+    background: #333;
+}
+
+a:visited{
+    background: red;
+    color: yellow;
+}
+
+a:hover{
+    background: yellow;
+    color: red;
+}
+
+a:active{
+    background: blue;
+    color: white;
+}
+

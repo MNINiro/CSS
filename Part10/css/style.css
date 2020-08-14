@@ -1,0 +1,14 @@
+
+h2{
+    font-family: calibri;
+    font-size: 2em;
+    font-style: italic;
+    /*font-weight: normal;*/
+    font-weight: 400; /* same as normal. 700 for bold etc. */
+}
+
+p{
+    font-weight: bold;
+    font-variant:small-caps;
+
+}
