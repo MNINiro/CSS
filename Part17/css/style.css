@@ -1,0 +1,15 @@
+h2{
+    /* text-align:center; */
+    /* to conver a block into InLine */
+    display: inline-block
+}
+
+/* span is an inline element. It won't move unless we conver it into block-level element. */
+span{
+    text-align: center;
+    /* display: block /* now span has been converted into a block */
+}
+
+ul li{
+    display: inline; /* it converts a list into an inline element */
+}
