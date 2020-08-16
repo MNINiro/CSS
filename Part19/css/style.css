@@ -1,0 +1,49 @@
+.box1{
+    width: 200px;
+    height: 200px;
+    background: green;
+    position: absolute; /* it is reletive to the body area */
+    bottom: 0;
+    right: 0;
+    top: 0;
+    margin: auto; /* it will place the box in the middle */
+}
+.box2{
+     width: 200px;
+    height: 200px;
+    background: red;
+    position: absolute;
+    right: 30px;
+    top: 350px;
+    /* margin: auto; /* it will place the box in the middle */
+}
+.box3{
+     width: 200px;
+    height: 200px;
+    background: blue;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.box4{
+    width: 400px;
+    height: 200px;
+    background: black;
+    position: relative;
+}
+.box5{
+    width: 100px;
+    height: 100px;
+    background: white;
+    position:absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 50%; /* to conver a box into circle. Here width and height must be same. */
+}
+

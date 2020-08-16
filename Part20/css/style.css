@@ -1,0 +1,17 @@
+.m{
+    border: 3px solid red;
+    background: yellow;
+    padding: 5px;
+    margin-top: 10px;
+    position:sticky;
+    top: 0;
+}
+p{
+    padding: 1500px
+    position:fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 2px solid blue;
+
+}

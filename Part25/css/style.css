@@ -1,0 +1,12 @@
+/*
+div > p{ /* here ">" sign refers only <p> tag. <span> <p> will not work */
+  /*  background: yellow;
+}*/
+/*
+div + p{ /* here "+" sign refers only the <p> tag which is just immediately after </div> tag. <span> <p> and <div> <p> will not work */
+/*  background: yellow;
+}*/
+
+div ~ p{ /* here "~" sign refers all <p> tags those are after </div> tag. <span> <p> and <div> <p> will not work */
+    background: yellow;
+}

@@ -1,0 +1,16 @@
+p::first-letter{
+    color: red;
+    font-size: 100px;
+}
+/*
+p::first-line{
+    color: red;
+    font-size: 100px;
+} */
+
+h2::before{
+    content: url(../Tick.png)
+}
+h2::after{
+    content: url(../Tick.png)
+}

@@ -1,0 +1,10 @@
+a:hover{ /* hover or nth-child or first-child class has not declared in the html tags but still we can use these pseudo-classes */
+    color: red;
+}
+
+h2:nth-child(3){ /* it will start counting from the first sentence */
+    color: red;
+}
+h2:last-child{ /* first-child or last-child can be written */
+    color: red;
+}

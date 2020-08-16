@@ -1,0 +1,24 @@
+span.a{ /* width and height will not work with display: inline */
+    width: 100px;
+    height: 100px;
+    display: inline; /* span by defaul inline */
+    background: yellow;
+    border: 2px solid #000;
+    padding: 5px;
+}
+span.b{ /* width and height will work with display: inline-box */
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background: yellow;
+    border: 2px solid #000;
+    padding: 5px;
+}
+span.c{
+    width: 100px;
+    height: 100px;
+    display: block; /* it will place blocks one after the other */
+    background: yellow;
+    border: 2px solid #000;
+    padding: 5px;
+}
