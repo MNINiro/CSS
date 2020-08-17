@@ -1,0 +1,41 @@
+.icons{
+    overflow: hidden; /* to show any text at the bottom of this icon. Not beside icons */
+}
+.icons ul{
+    margin: 0;
+    padding: 0;
+}
+.icons ul li{
+    list-style-type: none;
+    float:left; /* to show icons side-by-side */
+    margin-right: 10px; /* it also create margin at the right side of the 3rd icon.*/
+}
+.icons ul li:last-child{
+    margin-right: 0;
+}
+.icons ul li a{
+    background-image: url('../socialIcons.png');
+    background-repeat: no-repeat;
+    width: 84px;
+    height: 84px;
+    display: inline-block; /* picture won't be visible without it */
+    border: 2px solid #777;
+    border-radius: 50%; /* to create circular icon */
+    transition: 1s;
+
+}
+.icons ul li:hover:nth-child(1) a{
+    background-position: 0 -84px; /* it moves the 2nd line (color fb icon) to the 1st line position only on left-most icon (1st icon) */
+}
+.icons ul li:nth-child(2) a{
+    background-position: -336px 0; /* it moves the 1st line to the 5th right position(linkedin icon)) */
+}
+.icons ul li:hover:nth-child(2) a{
+    background-position: -336px -84px; /* it moves the 2nd line (color linkedin icon) to the 1st line position only.(5th icon) */
+}
+.icons ul li:nth-child(3) a{
+    background-position: -588px 0; /* it moves the 1st line to the 8th right position(Skype icon)) */
+}
+.icons ul li:hover:nth-child(3) a{
+    background-position: -588px -84px; /* it moves the 2nd line (color skype icon) to the 1st line position only.(8th icon) */
+}

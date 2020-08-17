@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Dropdown menu </title>
+                       
+    <link rel="stylesheet" href="../Part29/css/style.css">
+</head>
+<body>
+   <!-- ul>li*5>a[href="#"]{home} then press Tab. it will create following structure -->
+    <ul>
+        <li><a href="#">home</a></li>
+        <li><a href="#">about</a></li>
+        <li class="dropdown">
+            <a class="dropbtn" href="javascript:void(0)">blog</a>
+            <!-- javascript:void(0) code will not allow to create a hyperlink  when you will press on blog menu. But dropdown will work fine -->
+            <div class="dropdown-content">
+                <a href="#">Education</a>
+                <a href="#">Sports</a>
+                <a href="#">Entertainment</a>
+            </div>
+        </li>
+        <li><a href="#">clients</a></li>
+        <li><a href="#">contacts</a></li>
+    </ul>
+</body>
+</html>

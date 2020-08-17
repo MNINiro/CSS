@@ -1,0 +1,39 @@
+ul{
+    margin: 0;
+    padding: 0;
+    background: #333;
+    overflow: hidden;/* to get back background */
+}
+ul li{
+    float: left;
+    list-style-type: none;/* to remove bullets */
+
+}
+ul li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform:capitalize;
+    padding: 12px 16px;
+    display: inline-block;/* to give space in top-bottom */
+}
+ul li a:hover{
+    background: red;
+}
+.dropdown-content{
+    background: #f9f9f9;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+    display: none;/* to stop showing the dropdown menu constantly */
+    position: absolute;/* It will stop showing the entire box rather only where menu hovers */
+    min-width: 100px; /* width of the dropdown menu */
+}
+.dropdown-content a{
+    display: block;
+    color: #333;
+}
+.dropdown-content a:hover{/*for drop-down menu only */
+  background: #f1f1f1;
+    color:#333
+}
+.dropdown:hover .dropdown-content{
+    display: block; /* now it is showing drop-down menu when we hover on blog menu. But it is showing the entire menu box. It must be stopped showing. So we  need to use position: absolute in the main menu above */
+}

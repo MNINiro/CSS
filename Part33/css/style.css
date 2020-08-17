@@ -1,0 +1,32 @@
+.f1{
+    font-size: 90px;
+    text-align: center;
+    text-shadow: 2px 2px 5px red;
+
+}
+.f2{
+    font-size: 90px;
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: -2px 0 red, 0 2px red, 2px 0 red, 0 2px red ; /* putting shadow on all 4-sides. different colors can be used */
+}
+.pic{
+    width: 400px;
+    text-align: center;
+    margin:auto;
+    border: 1px solid #d4d4d4;
+}
+.pic img{
+    width: 100%;
+}
+.container{
+    padding: 10px;
+}
+.pic h3{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 0;
+}
+.pic:hover{
+    box-shadow: 4px 8px 10px rgba(0,0,0,.2), -3px 5px 10px rgba(0,0,0,.2)
+}
