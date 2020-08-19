@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background: red;
+    border: 2px solid #000;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    /* transform: translate(100px, 100px); /* x-axis, y-axis
+    transform: translateX(100px)/* translateY can be used */
+
+    margin: 50px auto;/* to move the box */
+
+    /*transform:rotate(30deg); /* -30deg for opposite direction */
+
+    /*    transform: scale(2) /* Box-size will be changed in terms of the original width & height. here scale(2) means double. scaleX or ScaleY will change accordingly, scale(2 3) can be used */
+
+    transform: skew(45deg) /* skewX, skewY can be used but not together */
+}

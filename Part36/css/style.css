@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background: red;
+    margin: auto;
+
+
+
+    /*transition: width 3s, height 3s; */
+   /* transition-delay: 1s;/* it will delay after hovering mouse for a second.*/
+
+    transition: width 1s, height 1s, transform 5s;
+    transition-timing-function: linear;/* "ease-in-out" will increase and decrease the size of the box much smoothly */
+
+}
+.box:hover{
+    width: 200px;
+    height: 200px;
+    background: green;
+    transform: rotate(180deg);
+
+}

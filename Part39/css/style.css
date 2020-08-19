@@ -1,0 +1,30 @@
+/* globally we can use "box-sizing: border-box;" in the following way */
+
+*{
+    box-sizing: border-box;
+}
+
+.box1{
+    width: 300px;
+    height: 100px;
+    border: 1px solid red;
+}
+.box2{
+    width: 300px;
+    height: 100px;
+    border: 1px solid green;
+    padding: 50px; /* it will increase the box size but we don't it. */
+    /*
+    box-sizing: border-box;/* it will keep the box size fixed to the original size */
+}
+.box3{
+    border: 1px solid red;
+    width: 300px;
+    padding: 10px 0;
+}
+.box3 input{
+    width: 100%; /* now the input box is going outside of the box3 area. */
+    /* to keep the input box inside the box following code is needed */
+    /* box-sizing: border-box; */
+}
+

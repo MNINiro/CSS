@@ -1,0 +1,25 @@
+.flex-container{
+    display: flex; /* by default it's in row */
+
+    /* to transform in column
+    flex-direction: column;*/
+
+    /* flex-wrap: wrap; /* it is required to diplay in small devices like phones */
+
+    justify-content:center; /* it will put items horizontally in center position */
+
+    align-items: center; /* it will put items vertically in center position */
+
+    background: red;
+    padding: 10px;
+    height: 400px;
+}
+.flex-item{
+    border: 1px solid #fff;
+    font-size: 30px;
+    color:aliceblue;
+    padding: 20px;
+    margin: 10px;
+    width: 100px;
+
+}
