@@ -1,6 +1,6 @@
 p{
-    margin: 50px;
-   /* border: 1px solid #333;
+    margin: 50px; /*
+    border: 1px solid #333;
     outline-width: 5px;
     outline-style: solid;
     outline-color: red; */
@@ -11,7 +11,7 @@ p{
 
     /* to create gap between black & red border */
 
-    outline-offset: 20px /* 5px to 10px will show the outline box clearly but 20px+ won't. so, uning margin at the beginning. if margin is used at the bottom then it will look different. */
+    outline-offset: 20px /* 5px to 10px will show the outline box clearly but 20px+ won't. so, using margin at the beginning. if margin is used at the bottom then it will look different. */
 
     /*margin: 50px;*/
 

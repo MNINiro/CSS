@@ -2,7 +2,7 @@
     width: 200px;
     height: 200px;
     background: green;
-    position: absolute; /* it is reletive to the body area */
+    position: absolute; /* it is reletive to the entire body area */
     bottom: 0;
     right: 0;
     top: 0;

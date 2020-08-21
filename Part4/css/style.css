@@ -1,16 +1,8 @@
 h2{
-    color: red;
+    color: rgb(104, 230, 20);
     text-align: center
 }
-body{
-    background-color: rgb(200,100,100)
-}
 
-body{
-    background-image: url(../image/maxresdefault.jpg);
-    background-repeat: no-repeat;
-    background-position: right;
-}
 
 div{
     width: 300px;
@@ -19,10 +11,10 @@ div{
     background-repeat: no-repeat;
     background-size: 300px autopx;
     background-attachment: fixed;
-    background-position: top left;
+    background-position: left;
 
 }
 
 body{
-    background: #0000 url('../image/OIP.jpg') no-repeat top center / 200px auto;
+    background: rgb(224, 13, 13) url('../image/OIP.jpg') no-repeat top center / 200px auto;
 }

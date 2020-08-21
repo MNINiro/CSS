@@ -1,12 +1,12 @@
 .bdr{
-    border-width: 5px 20px 10px;
-    /* horizontal, vertical, bottom */
+    border-width: 5px 10px 10px;
+    /* top, right, bottom, left */
     /* clock wise */
 
     border-style: dotted solid;
     /* can be combined multiple design or keep just one design */
 
-    border-color: blue;
+    border-color: rgb(15, 161, 219);
     border-radius: 10px;
 
 }

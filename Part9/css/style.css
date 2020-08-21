@@ -13,7 +13,7 @@ h2{
     text-align:center;
     text-decoration: underline;
     letter-spacing: 5px;
-    text-shadow: 1px -2px green; /* left-right, up-down, second color */
+    text-shadow: 1px 2px green; /* left-right, up-down, second color */
 }
 
 a{

@@ -7,7 +7,7 @@
     float:right;
 }
 p{
-    clear:both;
+    clear:both; /* to move text under both of the photos */
     color: #fff;
     background: black;
 }

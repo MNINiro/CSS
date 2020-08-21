@@ -4,7 +4,7 @@ h2{
     display: inline-block
 }
 
-/* span is an inline element. It won't move unless we conver it into block-level element. */
+/* span is an inline element. It won't move unless we convert it into a block-level element. */
 span{
     text-align: center;
     /* display: block /* now span has been converted into a block */
