@@ -12,6 +12,6 @@ img:hover{
     text-align: center;
     background: #fff;
     padding: 30px;
-    opacity: 0.6;
+    opacity: 0.5;
     margin: 130px; /* margin pushed the picture down from the top. So we need to write "overflow: hidden" in the previous class
 }

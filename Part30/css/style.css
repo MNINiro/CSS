@@ -25,17 +25,26 @@
 
 }
 .icons ul li:hover:nth-child(1) a{
-    background-position: 0 -84px; /* it moves the 2nd line (color fb icon) to the 1st line position only on left-most icon (1st icon) */
+    background-position: 0 -84px; /* it moves the 2nd line (color fb icon) to the 1st line position. It's only on left-most icon (1st icon) */
 }
 .icons ul li:nth-child(2) a{
     background-position: -336px 0; /* it moves the 1st line to the 5th right position(linkedin icon)) */
 }
 .icons ul li:hover:nth-child(2) a{
-    background-position: -336px -84px; /* it moves the 2nd line (color linkedin icon) to the 1st line position only.(5th icon) */
+    background-position: -336px -84px; /* it moves the 2nd line (colored linkedin icon) to the 1st line position only.(5th icon) */
 }
 .icons ul li:nth-child(3) a{
     background-position: -588px 0; /* it moves the 1st line to the 8th right position(Skype icon)) */
 }
 .icons ul li:hover:nth-child(3) a{
     background-position: -588px -84px; /* it moves the 2nd line (color skype icon) to the 1st line position only.(8th icon) */
+}
+
+p{
+    width: 270px;
+    color: darkred;
+    background: yellow;
+    font-size: 15px;
+    text-transform:capitalize;
+    margin: 10px;
 }

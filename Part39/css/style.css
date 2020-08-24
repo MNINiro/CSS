@@ -1,6 +1,6 @@
 /* globally we can use "box-sizing: border-box;" in the following way */
 
-*{
+*{ /* "*" refers to all boxes */
     box-sizing: border-box;
 }
 
@@ -13,7 +13,7 @@
     width: 300px;
     height: 100px;
     border: 1px solid green;
-    padding: 50px; /* it will increase the box size but we don't it. */
+    padding: 50px; /* it will increase the box size but we don't need it. */
     /*
     box-sizing: border-box;/* it will keep the box size fixed to the original size */
 }

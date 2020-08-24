@@ -6,5 +6,5 @@ h2:nth-child(3){ /* it will start counting from the first sentence */
     color: red;
 }
 h2:last-child{ /* first-child or last-child can be written */
-    color: red;
+    color: green;
 }
