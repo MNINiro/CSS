@@ -16,6 +16,7 @@ body{
 .container{
     width: 65%;
     margin: auto;
+    max-width: 1000px; /* to keep the logo & login area at the middle of a large screen */
 }
 .logo-area{
     width: 30%;
